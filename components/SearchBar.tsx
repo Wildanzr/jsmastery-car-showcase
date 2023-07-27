@@ -54,8 +54,8 @@ const SearchBar = () => {
     }
 
     updateSearchParams(
-      model.toLowerCase().trim(),
-      manufacturer.toLowerCase().trim()
+      model.toLowerCase(),
+      manufacturer.toLowerCase()
     )
   };
 

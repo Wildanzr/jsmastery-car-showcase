@@ -51,3 +51,8 @@ export interface CustomFilterProps {
     title: string;
     options: OptionProps[];
 }
+
+export interface UpdatePathnameProps {
+    type: string;
+    value: string;
+}
