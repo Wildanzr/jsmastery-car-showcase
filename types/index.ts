@@ -56,3 +56,8 @@ export interface UpdatePathnameProps {
     type: string;
     value: string;
 }
+
+export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
+}
